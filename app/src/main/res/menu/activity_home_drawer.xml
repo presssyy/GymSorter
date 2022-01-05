@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Home">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Home"/>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_exercise"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Exercise" />
+
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Notes" />
+
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Maps" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_userProfile"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="User Profile"/>
+        </menu>
+    </item>
+</menu>

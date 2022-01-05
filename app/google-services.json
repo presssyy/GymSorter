@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "450543838059",
+    "firebase_url": "https://gymsorterlogin.firebaseio.com",
+    "project_id": "gymsorterlogin",
+    "storage_bucket": "gymsorterlogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450543838059:android:e4b028bc4338e08117a22e",
+        "android_client_info": {
+          "package_name": "com.example.gymsortlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450543838059-nguku0skrktqo1f8254qhk61h4fb10so.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gymsortlogin",
+            "certificate_hash": "288f312d17328d2ed36fabb796ff9ac65d7349a2"
+          }
+        },
+        {
+          "client_id": "450543838059-21lrmorflcek13k3n8u9uvasmgn6oe07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWmQN_S2LBDCOQvsHJAkHWAHbx9zSIBf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450543838059-21lrmorflcek13k3n8u9uvasmgn6oe07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gymsorter">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.gymsorter.notes.EditNote"
+            android:label="EditeNotes"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.example.gymsorter.notes.AddNotes"
+            android:label="@string/title_activity_add_notes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.gymsorter.notes.NoteDetails"
+            android:label="@string/title_activity_note_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.gymsorter.notes.NotesActivity"
+            android:label="Notes"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.example.gymsorter.profile.UserProfile"
+            android:label="User Profile"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.example.gymsorter.profile.EditProfileActivity"
+            android:label="Edit Profile"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.example.gymsorter.activities.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.gymsorter.exercise.ExerciseActivity"
+            android:label="Exercise"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.example.gymsorter.exercise.ExerciseTypeDetails"
+            android:label="Add Exercise"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.example.gymsorter.exercise.AddExerciseType"
+            android:label="Add Exercise"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.example.gymsorter.exercise.EditExerciseType"
+            android:label="Edit Exercise"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA5zzjnGmrLkUmGq5OTZ7NSdr8keJCCQn8" />
+
+        <activity
+            android:name="com.example.gymsorter.maps.MapsActivity"
+            android:label="Map"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.example.gymsorter.login.Login"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.example.gymsorter.login.Register"
+            android:label="Register"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
